@@ -13,6 +13,14 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+<<<<<<< xMichasio-patch-5
+=======
+    
+permissions:
+  contents: read
+  id-token: write
+  security-events: write
+>>>>>>> main
   
 jobs:
   build:
