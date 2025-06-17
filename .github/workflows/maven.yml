@@ -27,8 +27,8 @@ jobs:
       uses: SonarSource/sonarqube-scan-action@v2.0.0
       with:
         args: >
-          -Dsonar.projectKey=xMichasio_IO
-          -Dsonar.organization=xmichasio
+          -Dsonar.projectKey=Nittiette_IO
+          -Dsonar.organization=nittiette
           -Dsonar.java.binaries=target
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
