@@ -5,32 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>IO</artifactId>
+    <artifactId>lab9-10</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <!-- Java 24 jeszcze nie jest obsługiwana przez Maven -->
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.2</version>
+            <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.11.0.3922</version>
-            </plugin>
-        </plugins>
-    </build>
 </project>
